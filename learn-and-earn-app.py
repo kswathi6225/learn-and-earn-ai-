@@ -1170,7 +1170,7 @@ class AdvancedLearnAndEarnPlatform:
                 st.session_state['current_page'] = 'Dashboard'
                 
                 # Rerun the app to navigate to the dashboard
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Invalid Credentials")
 
